@@ -1,11 +1,63 @@
-/* CSS files add styling rules to your content */
-
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+    background: url(https://cdn.glitch.com/a009fd82-2b7f-4bbb-b304-a7d702e8acaa%2FBackground.jpg?v=1610236371506) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+
 h1 {
-  font-style: italic;
-  color: #373fff;
+    color: #fff;
+    font-weight: 500;
+    font-family: Poppins , sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 210px;
+}
+
+.button-style {
+    padding: 15px;
+    width: 200px;
+    height: 65px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    background-color: #619fb5a6;
+    box-shadow: #36363680 0px 7px 15px;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0 15px;
+    margin-top: 50px;
+}
+
+.button-style:hover {
+    box-shadow: #36363680 0px 7px 7px;
+    transition: 0.5s;
+    background-color:#619fb5a6;
+}
+
+.button-style:focus {
+    outline: none;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 445px) {
+  
+  
+  h1 {
+    margin-top: 140px;
+  }
+  
+  .align {
+    display: inherit;
+    text-align: center;
+  }
 }

@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://cdn.glitch.com/a009fd82-2b7f-4bbb-b304-a7d702e8acaa%2FBackground.jpg?v=1610236371506);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    background-color: #619fb57e;
+    width: 500px;
+    height: 500px;
+    border-radius: 7px;
+    box-shadow: #363636 0px 13px 20px;
+}
+
+.box>h1 {
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 42px;
+    font-family: Poppins, sans-serif;
+}
+
+.box>form {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#input-configure {
+    padding: 10px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    border: 0;
+}
+
+.buttons {
+    position: absolute;
+	left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.button-style {
+    padding: 15px;
+    width: 190px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    background-color: #619fb53b;
+    box-shadow: #36363680 0px 7px 15px;
+    border: 0;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-style:hover {
+    box-shadow: #36363680 0px 7px 7px;
+    transition: 0.5s;
+    background-color: #619fb588;
+}
+
+.button-style:focus {
+    outline: none;
+}
+
+.forgot-styles>label {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+.forgot-styles {
+    margin-top: 20px;
+}
+
+.forgot-styles>a {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
