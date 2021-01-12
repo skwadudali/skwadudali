@@ -1,9 +1,9 @@
 body {
     background: url(https://cdn.glitch.com/a009fd82-2b7f-4bbb-b304-a7d702e8acaa%2FBackground.jpg?v=1610236371506) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
