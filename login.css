@@ -103,3 +103,15 @@ body {
     width: 440px;
   }
 }
+
+@media screen and (max-width: 460px) {
+   .box {
+    width: 400px;
+  } 
+}
+
+@media screen and (max-width: 420px) {
+   .box {
+    width: 360px;
+  } 
+}
