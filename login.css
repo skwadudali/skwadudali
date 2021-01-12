@@ -144,4 +144,14 @@ body {
   .forgot-styles > label {
     margin-left: 5px;
   }
+  
+  .forgot-styles {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .box {
+    width: 300px;
+  }
 }
