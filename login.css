@@ -140,4 +140,8 @@ body {
   .box>h1 {
     padding-top: 45px;
   }
+  
+  .forgot-styles > label {
+    margin-left: 5px;
+  }
 }
