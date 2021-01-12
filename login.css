@@ -125,3 +125,14 @@ body {
     width: 287px;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .box {
+    width: 325px;
+  }
+  
+  #input-configure {
+    width: 245px;
+    height: 23px;
+  }
+}
