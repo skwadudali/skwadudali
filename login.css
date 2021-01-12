@@ -129,10 +129,15 @@ body {
 @media screen and (max-width: 360px) {
   .box {
     width: 325px;
+    height: 475px;
   }
   
   #input-configure {
     width: 245px;
     height: 23px;
+  }
+  
+  .box>h1 {
+    padding-top: 45px;
   }
 }
