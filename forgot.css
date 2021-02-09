@@ -16,8 +16,43 @@ body {
 h1 {
   color: #fff;
   font-weight: 500;
+  font-family: Poppins , sans-serif;
+  font-size: 45px;
   text-align: center;
-  padding-top: 70px;
-  font-size: 42px;
+  margin-top: 210px;
+}
+
+#input-configure {
+    padding: 10px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: Poppins, sans-serif;
+    border: 0;
+}
+
+.AlignContent {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button-style {
+  padding: 15px;
+  width: 190px;
+  font-size: 16px;
   font-family: Poppins, sans-serif;
+  background-color: #619fb588;
+  box-shadow: #36363680 0px 7px 15px;
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+
+.button-style:hover {
+    box-shadow: #36363680 0px 7px 7px;
+    transition: 0.5s;
+    background-color: #619fb5a6;
 }
