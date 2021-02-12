@@ -56,3 +56,19 @@ h1 {
     transition: 0.5s;
     background-color: #619fb5a6;
 }
+
+@media screen and (max-width: 380px) {
+  .title_page {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .title_page {
+    font-size: 35px;
+  }
+  
+  #input-configure {
+    width: 245px;
+  }
+}
